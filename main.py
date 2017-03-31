@@ -2,6 +2,7 @@ import requests
 import pymongo
 import json
 import time
+import requests
 from multiprocessing.dummy import Pool as ThreadPool
 
 S = requests.session()
