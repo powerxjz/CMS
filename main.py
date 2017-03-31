@@ -1,10 +1,8 @@
 import requests
 import pymongo
 import json
-import re
 import time
 from multiprocessing.dummy import Pool as ThreadPool
-from wxpy import *
 
 S = requests.session()
 
